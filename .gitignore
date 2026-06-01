@@ -1,0 +1,50 @@
+# ===========================
+# Universal ISO Manager
+# .gitignore
+# ===========================
+
+# Laufzeit-Daten (benutzerspezifisch)
+vlm_settings.ini
+vlm_user_urls.ini
+vlm_log.txt
+
+# ISO-Datenbank (wird beim Start neu generiert)
+# vlm_isos.ini  ← auskommentiert, da du sie vielleicht versionieren willst
+
+# ISO-Dateien (zu groß für Git)
+ISOs/
+*.iso
+
+# Temporäre Download-Dateien
+*.tmp
+*.part
+*.crdownload
+vlm_ventoy_setup/
+
+# Kompilierte AutoIt-Executables
+*.exe
+*.a3x
+
+# AutoIt IDE / Editor
+*.au3.bak
+*.au3~
+
+# Windows-spezifisch
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.txt.bak
+
+# Temporäre Systemdateien
+~$*
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
